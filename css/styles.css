@@ -1,6 +1,6 @@
 body {
 	font-family: "Montserrat", sans-serif;
-	background: #ccc8c8;
+	background: #ccccc8;
 }
 
 /* main */
@@ -13,7 +13,7 @@ body {
 
 /* main_content */
 .main_content {
-	background: #fffffffc;
+	background: #fdfdfdfc;
 	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 	padding: 40px 95px 80px;
 }
@@ -46,8 +46,7 @@ body {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
-	color: #0a0a0a;
-	/* width: 600px; */
+	color: #070505;
 	margin-bottom: 40px;
 }
 
@@ -66,13 +65,13 @@ body {
 }
 
 .project-list {
-    width: 450px;
+	width: 450px;
 	padding: 0;
 	margin-left: 15px;
 }
 
 .project-item {
-   	font-style: normal;
+	font-style: normal;
 	font-size: 14px;
 	line-height: 24px;
 	color: #000000;
@@ -88,17 +87,17 @@ body {
 }
 
 .project {
-    display:flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .project-link {
 	margin-left: 10px;
 }
 
-.project-dots{
-   flex-grow: 1; 
- }
+.project-dots {
+	flex-grow: 1;
+}
 
 .project-bracket {
 	font-style: normal;
@@ -152,7 +151,7 @@ body {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
-	color: #0a0a0a;
+	color: #070505;
 	margin-bottom: 16px;
 }
 
@@ -192,7 +191,7 @@ body {
 	margin: 0 auto;
 	margin-bottom: 50px;
 	border-radius: 0 50px 0 50px;
-    padding: 0 15px;
+	padding: 0 15px;
 }
 
 .sidebar-title {
@@ -234,11 +233,10 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 	color: #ffffff;
-	
 }
 
 .contact-link:first-child {
-   text-decoration: none;
+	text-decoration: none;
 }
 
 .tech-skills-list {
