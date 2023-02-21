@@ -85,6 +85,11 @@ body {
 	line-height: 24px;
 	color: #595959;
 }
+.project-link::after {
+	content: "";
+	display:block;
+	border-bottom: 1px dotted #000000;;
+}
 
 .project {
 	display: flex;
@@ -95,9 +100,9 @@ body {
 	margin-left: 10px;
 }
 
-.project-dots {
+/* .project-dots {
 	flex-grow: 1;
-}
+} */
 
 .project-bracket {
 	font-style: normal;
