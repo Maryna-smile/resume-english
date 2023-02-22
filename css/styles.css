@@ -65,12 +65,17 @@ body {
 }
 
 .project-list {
-	width: 450px;
+	width: 600px;
 	padding: 0;
 	margin-left: 15px;
+	margin: 0;
 }
 
 .project-item {
+	display: flex;
+	align-items: baseline;
+	padding: 0;
+	margin: 0;
 	font-style: normal;
 	font-size: 14px;
 	line-height: 24px;
@@ -84,11 +89,21 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 	color: #595959;
+	margin: 0;
+	}
+
+.project-link {
+		order: -1;
 }
-.project-link::after {
-	content: "";
-	display:block;
-	border-bottom: 1px dotted #000000;;
+
+.project-item::before {
+	content: '';
+	display: block;
+	border-bottom: 1px dotted #000000;
+	flex-grow: 1;
+	/* width: 20px; */
+	margin-left: 6px;
+    margin-right: 6px;
 }
 
 .project {
@@ -100,10 +115,6 @@ body {
 	margin-left: 10px;
 }
 
-/* .project-dots {
-	flex-grow: 1;
-} */
-
 .project-bracket {
 	font-style: normal;
 	font-weight: 700;
@@ -113,7 +124,6 @@ body {
 }
 
 /* work */
-
 .work-position {
 	font-style: normal;
 	font-weight: 700;
@@ -191,8 +201,8 @@ body {
 }
 
 .foto {
-    width: 300px;
-    height: 280px;
+	width: 300px;
+	height: 280px;
 	display: block;
 	width: 280px;
 	margin: 0 auto;
